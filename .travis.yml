@@ -3,8 +3,13 @@ node_js:
 - 8
 before_install:
 - npm i -g npm@5.3.0
-cache:
+deploy:
+  provider: heroku
+  api_key:
+    secure: 3VgvhUdidQiPVkaTLdG/P8qU/Qw5hHKOBnEEhQ9S77TnnwkqoHof5UHSx5N87NmdZmm8FH0+UIKaxt1Ml1/XL3a3ns2dddmSc7uSQnnPaYdTPx3HBryoXAqb86TL9dVUW1KiBTF5ZXuJt1sx0ITqx7SMIlCrQkSFTy861nIoV+vDLLZeFYxJKUi15Iz0LvLDQMwlkGG9sea+PampawNtLg1N9Zzts5wxhqMVlPS0iuOfwZjlK86fX+Y4tZz+kTy5VWmUWdg/9DOF3jbkXXxa/odybY0dtSFk4Bj4e28ShT+8HzJFmCV3KYp/srVV4B7n0W/sHPK+BsZQAF99SVrFKDbHj0EqAlSJzljUUZwimTzVbAgr9qk7odpmffc0vQ3fOOUUomSP10xsnHpYmXG4YnufWZBvBIJW/fIaZX6O2X1SoL+6SaxcS5vhdbEiOsecuq92YQFz9Ql8VtYTB0XdYwCxzc+88JCbB8HzRBGbP7O1unFby4PJ+7Ow6lZETar8i6fJB7eiQQWwXebbFYeSoXch9l09Qrqh25o/Sr/nwaNUykFdRnF4Lqyg9RbMvSNWgNPtJFXPFPsgZ1tuHHVivVexcK2Hce+nC9kijadYEY0Wj4T+DwrHmfLFvBGnatjTmpLh+TC0Z8Ont74P7DVk53zGh0phrRzhsWzcU8Ghz1E=
+    app: thawing-ridge-13872
+cache: 
 directories:
 - node_modules
-nodifications:
+nodifications: 
 email: false
