@@ -12,4 +12,4 @@ cache:
 directories:
 - node_modules
 nodifications: 
-email: false
+  email: false
