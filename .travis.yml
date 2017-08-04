@@ -8,8 +8,10 @@ deploy:
   api_key:
     secure: TBMW7x20czG35txxx1l3e37yOY/17jJpPL71glSX4cmpqJ8KVzQhKxzWPIZDn+uq8B5s6gZpbYxPwEF1yeYIqi4cThghEytmXZRyxEakJv5VLw3Ukh+lUqTVXYznL0Yn8MLi709wku4W4M1j2X8vf9AdpXaH/s76/5TknCVThWQfUqCr77uXx+vCM22Qhfs4vyKnLXeOcyvfZQklCHm8F7cd/wlpBB0TB7tnICUG5FzeKBKuKZMTDlJU4yDOhr2Uqr6FsrX5JPQIfYBq9NeGppHvo7v4oZ7+Zhqq5ytO+L1XgrtQNUF1FOMjm3SOtncObmqhbNn1TFddQyDKkRIIm8XNevIx5GPecwdFIllEHLWcKfACfTzVKzUp4kumX8ZIFu8HeROVhErzxb61lM+Cd2F6ish1liFeWlzF6yPylraFz2lcy+Hth/Iy3fID5OqIxQxJk38qOkq0EFPwYaZZBbK2+oRnxkm5OChi2xVlg/Y6qRQHF39PlydaXzOCN34wVZEqjTMYVCSoG8HB/1AE4swHCrrRqwrEox6j20w0At80Lx2aM/iMxY2ZDh7X55r7Mz5nAAW/BuNFEYkdsciwCptMouUQrO3p3u9IyvFcV4ec1eVAlCV55GXYOgcN7tGAykY7/sKVl7ttwcbxtFdNydtepSirN500EOlnunwD3l8=
   app: thawing-ridge-13872
+script:
+- npm run start
 cache: 
-directories:
-- node_modules
+  directories:
+  - node_modules
 nodifications: 
   email: false
